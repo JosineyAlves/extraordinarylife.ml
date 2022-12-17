@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en_US">
+<html lang="en_US" dir="ltr">
 
 <head>
+    <link rel="shortcut icon" href="data:" />
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Millionaire Songs </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>You Playing</title>
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Roboto:wght@400;500;600;700;800&amp;family=Montserrat:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&amp;family=Roboto:wght@400;500;600;700;800&amp;family=Montserrat:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');">
     <style>
         .items-center {
             align-items: center
@@ -66,7 +67,7 @@
         }
         
         .gap-12 {
-            48px
+            gap: 48px
         }
         
         .gap-24 {
@@ -148,7 +149,7 @@
         }
         
         body {
-            background-color: #ffffff;
+            background-color: #000000;
             overflow-x: hidden
         }
         
@@ -167,7 +168,7 @@
         h3,
         h3 b,
         h3 span {
-            font-family: Montserrat, sans-serif
+            font-family: Assistant, sans-serif
         }
         
         a {
@@ -310,295 +311,192 @@
             }
         }
     </style>
-    <!-- Hotmar Script -->
-
-    <script id="hotmart_launcher_script">
-        (function(l, a, u, n, c, h, e, r) {
-            l['HotmartLauncherObject'] = c;
-            l[c] = l[c] || function() {
-                (l[c].q = l[c].q || []).push(arguments)
-            }, l[c].l = 1 * new Date();
-            h = a.createElement(u),
-                e = a.getElementsByTagName(u)[0];
-            h.async = 1;
-            h.src = n;
-            e.parentNode.insertBefore(h, e)
-        })(window, document, 'script', '//launcher.hotmart.com/launcher.js', 'hot');
-
-        hot('account', 'a06de335-3d0f-3a0b-94e2-883e8e62e4d1');
-    </script>
-    <!-- Hotmar Script -->
-
-    <!-- Google tag Remarketing -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10998573649"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'AW-10998573649');
-    </script>
-    <!-- Google tag Remarketing -->
-    <!-- Google Tag Manager -->
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-TDD846T');
-    </script>
-    <!-- End Google Tag Manager -->
-
-    <!-- Meta Pixel Code -->
-    <script>
-        ! function(f, b, e, v, n, t, s) {
-            if (f.fbq) return;
-            n = f.fbq = function() {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '688536879266192');
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=688536879266192&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDD846T"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 
     <style>
-        .zooming {
-            animation: zooming 1.25s ease infinite;
+        .pulsing {
+            animation-name: pulsing;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+            animation-iteration-count: infinite;
         }
         
-        @keyframes zooming {
+        @keyframes pulsing {
             0% {
-                transform: scale(1, 1);
+                box-shadow: 0 0 0 0 #00dd00e1
             }
-            50% {
-                transform: scale(1.1, 1.1);
-            }
-            100% {
-                transform: scale(1, 1);
+            80% {
+                box-shadow: 0 0 0 12px #00ff1700
             }
         }
     </style>
-    <div class="division-1657813287709__wrapper">
+    <div class="division-PXbhzQ8772352__wrapper">
         <style>
-            #division-1657813287709 {
+            #division-PXbhzQ8772352 {
                 position: relative;
                 padding: 2vh 20vw 2vh 20vw;
-                background-color: #ff0000;
+                background-color: #ce0000;
             }
             
             @media (max-width:1200px) {
-                #division-1657813287709 {
+                #division-PXbhzQ8772352 {
                     padding: 1vh 10vw 1vh 10vw;
                 }
             }
             
             @media (max-width:600px) {
-                #division-1657813287709 {
-                    padding: 0.75vh 1.5vw 0.75vh 1.5vw;
+                #division-PXbhzQ8772352 {
+                    padding: 1.5vh 1.5vw 1.5vh 1.5vw;
                 }
             }
         </style>
-        <div id="division-1657813287709" class="BdzCSu8171582">
-            <div class="text-16578133316969nqkcl">
+        <div id="division-PXbhzQ8772352" class="gSimMJ8475079">
+            <div class="description-slfnYb8772352">
                 <style>
-                    .text-16578133316969nqkcl-element p {
-                        font-size: 1.32vw;
+                    .description-slfnYb8772352-element h3 {
+                        font-size: 3.30vw;
                         text-align: center;
                         padding-top: 1vh;
                         padding-bottom: 1vh;
                         color: #ffffff;
                         line-height: 1.1;
-                        font-weight: 400;
+                        font-weight: 800;
                     }
                     
                     @media (max-width: 1200px) {
-                        .text-16578133316969nqkcl-element p {
-                            font-size: 2.20vw;
+                        .description-slfnYb8772352-element h3 {
+                            font-size: 5.50vw;
                             padding-top: 0.75vh;
                             padding-bottom: 0.75vh;
                         }
                     }
                     
                     @media (max-width: 640px) {
-                        .text-16578133316969nqkcl-element p {
-                            font-size: 4.00vw;
-                            text-align: center;
-                        }
-                    }
-                </style>
-                <div class="text-16578133316969nqkcl-element text">
-                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-                    <script>
-                        $.get("https://ipinfo.io/json", function(response) {
-                            $("#ip").html("IP: " + response.ip);
-                            $("#address").html(response.city);
-                            $("#details").html(JSON.stringify(response, null, 4));
-                        }, "jsonp");
-                    </script>
-                    <p>
-                        You and some people close to&nbsp;<span style="color:#000000"><b><span id="address"></span></b>
-                        </span>were selected to watch
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="division-1657813536866__wrapper">
-        <style>
-            #division-1657813536866 {
-                position: relative;
-                padding: 3vh 20vw 1vh 20vw;
-                background-color: #ffffff;
-            }
-            
-            @media (max-width:1200px) {
-                #division-1657813536866 {
-                    padding: 1.5vh 10vw 0.5vh 10vw;
-                }
-            }
-            
-            @media (max-width:600px) {
-                #division-1657813536866 {
-                    padding: 1.5vh 1.5vw 0.001vh 1.5vw;
-                }
-            }
-        </style>
-        <div id="division-1657813536866" class="uucpHm8171582">
-            <div class="headline-1657813573937dgRfpz">
-                <style>
-                    .headline-1657813573937dgRfpz-element h1 {
-                        font-size: 3.30vw;
-                        text-align: center;
-                        padding-top: 1vh;
-                        padding-bottom: 2vh;
-                        color: #000000;
-                        line-height: 1.1;
-                        font-weight: 700;
-                    }
-                    
-                    @media (max-width: 1200px) {
-                        .headline-1657813573937dgRfpz-element h1 {
-                            font-size: 5.50vw;
-                            padding-top: 0.75vh;
-                            padding-bottom: 1.5vh;
-                        }
-                    }
-                    
-                    @media (max-width: 640px) {
-                        .headline-1657813573937dgRfpz-element h1 {
+                        .description-slfnYb8772352-element h3 {
                             font-size: 7.50vw;
                             text-align: center;
                         }
                     }
                 </style>
-                <div class="headline-1657813573937dgRfpz-element headline">
-                    <h1>
-                        Here's How&nbsp;<span style="color:#ff0000"><b>to Get Paid Every Day</b></span>&nbsp;Just for Listening to Music
-                    </h1>
-                </div>
-            </div>
-
-            <!-- VSL -->
-            <div style="position:relative;padding-top:56.25%;"><iframe id="panda-877e5b8a-8e03-41c4-87f6-82859aff" src="https://player-vz-49784e87-786.tv.pandavideo.com.br/embed/?v=877e5b8a-8e03-41c4-87f6-82859affa559" style="border-radius: 5px;position:absolute;top:0;left:0;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture"
-                    allowfullscreen=true width="100%" height="100%"></iframe></div>
-            <!-- VSL -->
-
-            <div class="description-16578141835486qxbNr">
-                <style>
-                    .description-16578141835486qxbNr-element h3 {
-                        font-size: 1.32vw;
-                        text-align: center;
-                        padding-top: 3vh;
-                        padding-bottom: 4vh;
-                        color: #000000;
-                        line-height: 1.1;
-                        font-weight: 400;
-                    }
-                    
-                    @media (max-width: 1200px) {
-                        .description-16578141835486qxbNr-element h3 {
-                            font-size: 2.20vw;
-                            padding-top: 2.25vh;
-                            padding-bottom: 3vh;
-                        }
-                    }
-                    
-                    @media (max-width: 640px) {
-                        .description-16578141835486qxbNr-element h3 {
-                            font-size: 4.00vw;
-                            text-align: center;
-                        }
-                    }
-                </style>
-                <div class="description-16578141835486qxbNr-element ">
+                <div class="description-slfnYb8772352-element ">
                     <h3>
-                        🎧 MAKE SURE YOUR SOUND IS TURNED ON.&nbsp;<b>PLEASE WAIT UP TO 10 SECONDS FOR THE VIDEO LOAD.</b>
+                        WAIT!
                     </h3>
                 </div>
             </div>
         </div>
     </div>
-    <div class="division-aAYpWa1942952__wrapper">
+    <div class="division-RkYytd8853835__wrapper">
         <style>
-            #division-aAYpWa1942952 {
+            #division-RkYytd8853835 {
                 position: relative;
                 padding: 3vh 20vw 3vh 20vw;
-                background-color: #ffffff;
+                background-color: #191919;
             }
             
             @media (max-width:1200px) {
-                #division-aAYpWa1942952 {
+                #division-RkYytd8853835 {
                     padding: 1.5vh 10vw 1.5vh 10vw;
                 }
             }
             
             @media (max-width:600px) {
-                #division-aAYpWa1942952 {
+                #division-RkYytd8853835 {
                     padding: 1.5vh 1.5vw 1.5vh 1.5vw;
                 }
             }
         </style>
-        <div id="division-aAYpWa1942952">
-            <div class="button-pWyRmY6545268 panda">
+        <div id="division-RkYytd8853835" class="LYHAHE8475079">
+            <div class="headline-cgoCmJ8850752">
                 <style>
-                    a.button-pWyRmY6545268-element {
+                    .headline-cgoCmJ8850752-element h1 {
+                        font-size: 3.30vw;
+                        text-align: center;
+                        padding-top: 2vh;
+                        padding-bottom: 3vh;
+                        color: #ffffff;
+                        line-height: 1.1;
+                        font-weight: 800;
+                    }
+                    
+                    @media (max-width: 1200px) {
+                        .headline-cgoCmJ8850752-element h1 {
+                            font-size: 5.50vw;
+                            padding-top: 1.5vh;
+                            padding-bottom: 2.25vh;
+                        }
+                    }
+                    
+                    @media (max-width: 640px) {
+                        .headline-cgoCmJ8850752-element h1 {
+                            font-size: 7.50vw;
+                            text-align: center;
+                        }
+                    }
+                </style>
+                <div class="headline-cgoCmJ8850752-element headline">
+                    <h1>
+                        Your Order Is Not Yet Complete...<br>
+                    </h1>
+                </div>
+            </div>
+            <div class="headline-QrdEmx9112592">
+                <style>
+                    .headline-QrdEmx9112592-element h1 {
+                        font-size: 1.98vw;
+                        text-align: center;
+                        padding-top: 0vh;
+                        padding-bottom: 5vh;
+                        color: #bebebe;
+                        line-height: 1.1;
+                        font-weight: 600;
+                    }
+                    
+                    @media (max-width: 1200px) {
+                        .headline-QrdEmx9112592-element h1 {
+                            font-size: 3.30vw;
+                            padding-top: 0vh;
+                            padding-bottom: 3.75vh;
+                        }
+                    }
+                    
+                    @media (max-width: 640px) {
+                        .headline-QrdEmx9112592-element h1 {
+                            font-size: 4.50vw;
+                            text-align: center;
+                        }
+                    }
+                </style>
+                <div class="headline-QrdEmx9112592-element headline">
+                    <h1>
+                        Do Not Close This Page - Please Watch This Short Video
+                    </h1>
+                </div>
+            </div>
+            <style>
+                .video-EqybLK8966898 {
+                    border: none;
+                    box-shadow: 0 0 12px 6px rgba(0, 0, 0, 0.15);
+                    border-radius: 4px;
+                }
+                
+                video.smartplayer-video {
+                    border-radius: 0px !important;
+                }
+            </style>
+
+            <!-- VSL -->
+            <div style="position:relative;padding-top:56.25%;"><iframe id="panda-2686d79e-4852-4491-a76b-65d664ff1c03" src="https://player-vz-49784e87-786.tv.pandavideo.com.br/embed/?v=2686d79e-4852-4491-a76b-65d664ff1c03" style="border:none;position:absolute;top:0;left:0;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture"
+                    allowfullscreen=true width="100%" height="100%"></iframe></div>
+            <!-- VSL -->
+
+            <div class="button-bYDXFe9482016 cXbJYP8487314">
+                <style>
+                    a.button-bYDXFe9482016-element {
                         background-color: #00dd00;
-                        border-radius: 16px;
+                        border-radius: 4px;
                         border: none;
                         color: #ffffff;
                         padding: 16px 32px 16px 32px;
@@ -606,307 +504,277 @@
                         display: block;
                         width: fit-content;
                         text-align: center;
-                        margin: 4vh auto 4vh auto;
-                        font-size: 1.65vw;
+                        margin: 6vh auto 2vh auto;
+                        font-size: 1.32vw;
                         box-sizing: border-box;
                         max-width: 100%;
                     }
                     
                     @media (max-width: 1200px) {
-                        a.button-pWyRmY6545268-element {
-                            font-size: 3.75vw;
-                            margin: 2.64vh auto 3vh auto
+                        a.button-bYDXFe9482016-element {
+                            font-size: 3.00vw;
+                            margin: 3.96vh auto 1.5vh auto
                         }
                     }
                     
                     @media (max-width: 600px) {
-                        a.button-pWyRmY6545268-element {
-                            font-size: 5.00vw;
-                        }
-                    }
-                </style>
-                <a href="https://pay.hotmart.com/J75798867B?checkoutMode=10&src=fb00" target="_blank" class="btn button-pWyRmY6545268-element zooming">
-I WANT TO GET PAID FOR LISTENING TO MUSIC
-</a>
-            </div>
-            <div class="hyperlink-1657814165233XBbbd5 panda">
-                <style>
-                    .hyperlink-1657814165233XBbbd5-element {
-                        font-size: 1.60vw;
-                        font-weight: 500;
-                        color: #0d6efd !important;
-                        text-align: center;
-                        display: block;
-                        margin: 2vh auto 2vh auto;
-                        padding: 0 !important;
-                    }
-                    
-                    @media (max-width: 1200px) {
-                        .hyperlink-1657814165233XBbbd5-element {
-                            font-size: 2.80vw;
-                        }
-                    }
-                    
-                    @media (max-width: 640px) {
-                        .hyperlink-1657814165233XBbbd5-element {
+                        a.button-bYDXFe9482016-element {
                             font-size: 4.00vw;
                         }
                     }
                 </style>
-                <a class="hyperlink-1657814165233XBbbd5-element" href="https://pay.hotmart.com/J75798867B?checkoutMode=10&src=fb00" target="_blank" rel="nofollow">
-                    <u>Buy now!<u>
-</u></u>
-                </a><u><u>
-</u></u>
-            </div><u><u>
-</u></u>
-        </div>
-    </div>
-    <div class="division-1657814825221__wrapper">
-        <style>
-            #division-1657814825221 {
-                position: relative;
-                padding: 4vh 20vw 4vh 20vw;
-                background-color: #222222;
-            }
-            
-            @media (max-width:1200px) {
-                #division-1657814825221 {
-                    padding: 2vh 10vw 2vh 10vw;
-                }
-            }
-            
-            @media (max-width:600px) {
-                #division-1657814825221 {
-                    padding: 3.75vh 1.5vw 3.75vh 1.5vw;
-                }
-            }
-        </style>
-        <div id="division-1657814825221" class="WapXIk8171583">
-            <div class="image-ILqHCF3874984">
-                <style>
-                    .image-ILqHCF3874984-element img {
-                        display: block;
-                        margin-left: auto;
-                        margin-right: auto;
-                        padding-bottom: 0.25vh;
-                        padding-top: 0.25vh;
-                        max-width: 20%;
-                    }
-                    
-                    @media (max-width: 1200px) {
-                        .image-ILqHCF3874984-element img {
-                            max-width: 18%;
-                        }
-                    }
-                    
-                    @media (max-width: 600px) {
-                        .image-ILqHCF3874984-element img {
-                            max-width: 40%;
-                            margin-left: auto;
-                            margin-right: auto;
-                        }
-                    }
-                </style>
-                <div class="image-ILqHCF3874984-element">
-                    <img loading="lazy" src="https://i.imgur.com/qgiTz6y.png" alt="">
+                <div class="panda">
+                    <a href="https://pay.hotmart.com/P76473693H?off=x1gytmpi&checkoutMode=10" target="_blank" class="btn button-bYDXFe9482016-element pulsing"> I WANT TO START NOW</a>
                 </div>
-            </div>
-            <div class="footer-1657814831958Q4sQ3C">
-                <style>
-                    .footer-1657814831958Q4sQ3C-element {
-                        text-align: center;
-                        font-size: 0.80vw;
-                        color: #ffffff;
-                    }
-                    
-                    .footer-1657814831958Q4sQ3C-element a {
-                        padding: 0 !important;
-                        color: #ffffff !important;
-                    }
-                    
-                    @media (max-width:1200px) {
-                        .footer-1657814831958Q4sQ3C-element {
+                <div class="hyperlink-frNWAb7815938 cXbJYP8487314">
+                    <style>
+                        .hyperlink-frNWAb7815938-element {
+                            font-size: 1.20vw;
+                            font-weight: 500;
+                            color: #dadada !important;
                             text-align: center;
-                            font-size: 1.30vw;
-                            color: #ffffff;
+                            display: block;
+                            margin: 5vh auto 2vh auto;
+                            padding: 0 !important;
                         }
-                    }
-                    
-                    @media (max-width:640px) {
-                        .footer-1657814831958Q4sQ3C-element {
-                            text-align: center;
-                            font-size: 2.20vw;
-                            color: #ffffff;
-                        }
-                    }
-                </style>
-                <footer class="footer-1657814831958Q4sQ3C-element">
-                    <p><strong>Copyright 2022 – Millionaire Songs ®</strong></p>
-                    <p style="margin-top:4px;">All rights reserved</p>
-                    <div style="display:flex;align-items:center;justify-content:center;margin-top:24px;">
-                        <a id="t" style="margin-right:12px" href="#">
-                        </a> <span style="margin-right:12px">·</span>
-                        <a id="p" href="#">
-                        </a>
-                    </div>
-                    <p style="margin-top:24px;">
-                        Service results have been evaluated and verified by our clients. We do not guarantee the same results for everyone, these may vary from person to person depending on many individual factors. The information provided on this website is intended for your
-                        knowledge in a general way and we do not guarantee a specific result, any results will be the sole responsibility of the client. This page/product is not linked to Facebook. This product is marketed with the support of Hotmart.
-                        The platform does not perform a prior editorial control of the products sold, nor does it evaluate the technicality and expertise of the authors. The existence of a product and its purchase on the platform cannot be considered
-                        as a guarantee of quality of content and result, in any case. By purchasing it, the buyer declares that he/she is aware of this information. Hotmart's Terms and Policies can be accessed here https://hotmart.com/es/legal, even before
-                        completing the purchase.
-                    </p>
-                    <script>
-                        const pr = window.location.href + "/privacidade",
-                            te = window.location.href + "/termos";
-                        document.getElementById("p").setAttribute("href", pr), document.getElementById("t").setAttribute("href", te);
-                    </script>
-                </footer>
-            </div>
-        </div>
-    </div>
-    <style>
-        .panda {
-            display: none
-        }
-    </style>
-    <script>
-        const SECONDS_TO_DISPLAY = 395;
-        const CLASS_TO_DISPLAY = 'panda';
-        const IFRAME_ID = 'panda-877e5b8a-8e03-41c4-87f6-82859affa'
-        const API_ENDPOINT = 'https://player.pandavideo.com.br/api.v2.js'
-
-        if (!document.querySelector(`script[src='${API_ENDPOINT}']`)) {
-            let s = document.createElement('script');
-            s.src = API_ENDPOINT;
-            s.async = true;
-            document.head.appendChild(s);
-        }
-
-        window.pandascripttag = window.pandascripttag || [];
-        window.pandascripttag.push(function() {
-            const p = new PandaPlayer(IFRAME_ID, {
-                onReady() {
-                    const el = document.querySelectorAll(`.${CLASS_TO_DISPLAY}`);
-                    p.onEvent(e => {
-                        const type = e.message
-                        if (type === 'panda_timeupdate') {
-                            const {
-                                currentTime,
-                                isMutedIndicator
-                            } = e;
-                            if (isMutedIndicator) return;
-                            if (currentTime < SECONDS_TO_DISPLAY) {
-                                el.forEach(e => {
-                                    e.style.display = 'none'
-                                })
-                            } else if (currentTime > SECONDS_TO_DISPLAY) {
-                                el.forEach(e => {
-                                    e.style.display = 'block'
-                                })
+                        
+                        @media (max-width: 1200px) {
+                            .hyperlink-frNWAb7815938-element {
+                                font-size: 2.10vw;
                             }
                         }
-                    })
+                        
+                        @media (max-width: 640px) {
+                            .hyperlink-frNWAb7815938-element {
+                                font-size: 3.00vw;
+                            }
+                        }
+                    </style>
+                    <a class="hyperlink-frNWAb7815938-element panda" href="https://viviendointensamente.cf/dow1" target="_blank" rel="nofollow">
+                        <u>No, I don't want to earn more<u>
+</u></u>
+                    </a><u><u>
+</u></u>
+                </div><u><u>
+</u></u>
+            </div>
+        </div>
+        <div class="division-1657814825221__wrapper">
+            <style>
+                #division-1657814825221 {
+                    position: relative;
+                    padding: 4vh 20vw 4vh 20vw;
+                    background-color: #222222;
                 }
-            });
-        })
-    </script>
-    <script>
-        document.addEventListener("contextmenu", function(e) {
-            e.preventDefault();
-        }, false);
-    </script>
+                
+                @media (max-width:1200px) {
+                    #division-1657814825221 {
+                        padding: 2vh 10vw 2vh 10vw;
+                    }
+                }
+                
+                @media (max-width:600px) {
+                    #division-1657814825221 {
+                        padding: 3.75vh 1.5vw 3.75vh 1.5vw;
+                    }
+                }
+            </style>
+            <div id="division-1657814825221" class="WapXIk8171583">
+                <div class="image-ILqHCF3874984">
+                    <style>
+                        .image-ILqHCF3874984-element img {
+                            display: block;
+                            margin-left: auto;
+                            margin-right: auto;
+                            padding-bottom: 0.25vh;
+                            padding-top: 0.25vh;
+                            max-width: 20%;
+                        }
+                        
+                        @media (max-width: 1200px) {
+                            .image-ILqHCF3874984-element img {
+                                max-width: 18%;
+                            }
+                        }
+                        
+                        @media (max-width: 600px) {
+                            .image-ILqHCF3874984-element img {
+                                max-width: 40%;
+                                margin-left: auto;
+                                margin-right: auto;
+                            }
+                        }
+                    </style>
+                    <div class="image-ILqHCF3874984-element">
+                        <img loading="lazy" src="https://i.imgur.com/c6jQylu.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-1657814831958Q4sQ3C">
+                    <style>
+                        .footer-1657814831958Q4sQ3C-element {
+                            text-align: center;
+                            font-size: 0.80vw;
+                            color: #ffffff;
+                        }
+                        
+                        .footer-1657814831958Q4sQ3C-element a {
+                            padding: 0 !important;
+                            color: #ffffff !important;
+                        }
+                        
+                        @media (max-width:1200px) {
+                            .footer-1657814831958Q4sQ3C-element {
+                                text-align: center;
+                                font-size: 1.30vw;
+                                color: #ffffff;
+                            }
+                        }
+                        
+                        @media (max-width:640px) {
+                            .footer-1657814831958Q4sQ3C-element {
+                                text-align: center;
+                                font-size: 2.20vw;
+                                color: #ffffff;
+                            }
+                        }
+                    </style>
+                    <footer class="footer-1657814831958Q4sQ3C-element">
+                        <p><strong>Copyright 2022 – You Playing ®</strong></p>
+                        <p style="margin-top:4px;">All rights reserved</p>
+                        <div style="display:flex;align-items:center;justify-content:center;margin-top:24px;">
+                        </div>
+                        <p style="margin-top:24px;">
+                            ClickBank is the retailer of products on this site. CLICKBANK® is a registered trademark of Click Sales Inc., a Delaware corporation located at 1444 S. Entertainment Ave., Suite 410 Boise, ID 83709, USA and used by permission. ClickBank's role as retailer
+                            does not constitute an endorsement, approval or review of these products or any claim, statement or opinion used in promotion of these products. </p>
+                        <script>
+                            const pr = window.location.href + "/privacidade",
+                                te = window.location.href + "/termos";
+                            document.getElementById("p").setAttribute("href", pr), document.getElementById("t").setAttribute("href", te);
+                        </script>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <style>
+            .pand {
+                display: none
+            }
+        </style>
+        <script>
+            const SECONDS_TO_DISPLAY = 155;
+            const CLASS_TO_DISPLAY = 'panda';
+            const IFRAME_ID = 'panda-2686d79e-4852-4491-a76b-65d664ff1c03'
+            const API_ENDPOINT = 'https://player.pandavideo.com.br/api.v2.js'
 
-    <script>
-        document.onkeypress = function(event) {
-            event = (event || window.event);
-            if (event.keyCode == 123) {
-                return false;
+            if (!document.querySelector(`script[src='${API_ENDPOINT}']`)) {
+                let s = document.createElement('script');
+                s.src = API_ENDPOINT;
+                s.async = true;
+                document.head.appendChild(s);
             }
-            if (event.keyCode == 93) {
-                return false;
-            }
-            if (event.keyCode == 85) {
-                return false;
-            }
-            if (event.keyCode == 80) {
-                return false;
-            }
-            if (event.keyCode == 44) {
-                return false;
-            }
-            if (event.keyCode == 73) {
-                return false;
-            }
-        }
-        document.onmousedown = function(event) {
-            event = (event || window.event);
-            if (event.keyCode == 123) {
-                return false;
-            }
-            if (event.keyCode == 93) {
-                return false;
-            }
-            if (event.keyCode == 85) {
-                return false;
-            }
-            if (event.keyCode == 80) {
-                return false;
-            }
-            if (event.keyCode == 44) {
-                return false;
-            }
-            if (event.keyCode == 73) {
-                return false;
-            }
-        }
-        document.onkeydown = function(event) {
-            event = (event || window.event);
-            if (event.keyCode == 123) {
-                return false;
-            }
-            if (event.keyCode == 93) {
-                return false;
-            }
-            if (event.keyCode == 85) {
-                return false;
-            }
-            if (event.keyCode == 80) {
-                return false;
-            }
-            if (event.keyCode == 44) {
-                return false;
-            }
-            if (event.keyCode == 73) {
-                return false;
-            }
-        }
-    </script>
-    <!-- UTM -->
-    <script>
-        let prefix = ["https://payment.hotmart.com", "https://pay.hotmart.com"];
 
-        function getParams() {
-            let t = "",
-                e = window.top.location.href,
-                r = new URL(e);
-            if (null != r) {
-                let a = r.searchParams.get("utm_source"),
-                    n = r.searchParams.get("utm_medium"),
-                    o = r.searchParams.get("utm_campaign"),
-                    m = r.searchParams.get("utm_term"),
-                    c = r.searchParams.get("utm_content"); - 1 !== e.indexOf("?") && (t = `&sck=${a}|${n}|${o}|${m}|${c}`), console.log(t)
-            }
-            return t
-        }! function() {
-            var t = new URLSearchParams(window.location.search);
-            t.toString() && document.querySelectorAll("a").forEach(function(e) {
-                for (let r = 0; r < prefix.length; r++) - 1 !== e.href.indexOf(prefix[r]) && (-1 === e.href.indexOf("?") ? e.href += "?" + t.toString() + getParams() : e.href += "&" + t.toString() + getParams())
+            window.pandascripttag = window.pandascripttag || [];
+            window.pandascripttag.push(function() {
+                const p = new PandaPlayer(IFRAME_ID, {
+                    onReady() {
+                        const el = document.querySelectorAll(`.${CLASS_TO_DISPLAY}`);
+                        p.onEvent(e => {
+                            const type = e.message
+                            if (type === 'panda_timeupdate') {
+                                const {
+                                    currentTime,
+                                    isMutedIndicator
+                                } = e;
+                                if (isMutedIndicator) return;
+                                if (currentTime < SECONDS_TO_DISPLAY) {
+                                    el.forEach(e => {
+                                        e.style.display = 'none'
+                                    })
+                                } else if (currentTime > SECONDS_TO_DISPLAY) {
+                                    el.forEach(e => {
+                                        e.style.display = 'block'
+                                    })
+                                }
+                            }
+                        })
+                    }
+                });
             })
-        }();
-    </script>
-    <!-- UTM -->
+        </script>
+        <script>
+            document.addEventListener("contextmenu", function(e) {
+                e.preventDefault();
+            }, false);
+        </script>
+
+        <script>
+            document.onkeypress = function(event) {
+                event = (event || window.event);
+                if (event.keyCode == 123) {
+                    return false;
+                }
+                if (event.keyCode == 93) {
+                    return false;
+                }
+                if (event.keyCode == 85) {
+                    return false;
+                }
+                if (event.keyCode == 80) {
+                    return false;
+                }
+                if (event.keyCode == 44) {
+                    return false;
+                }
+                if (event.keyCode == 73) {
+                    return false;
+                }
+            }
+            document.onmousedown = function(event) {
+                event = (event || window.event);
+                if (event.keyCode == 123) {
+                    return false;
+                }
+                if (event.keyCode == 93) {
+                    return false;
+                }
+                if (event.keyCode == 85) {
+                    return false;
+                }
+                if (event.keyCode == 80) {
+                    return false;
+                }
+                if (event.keyCode == 44) {
+                    return false;
+                }
+                if (event.keyCode == 73) {
+                    return false;
+                }
+            }
+            document.onkeydown = function(event) {
+                event = (event || window.event);
+                if (event.keyCode == 123) {
+                    return false;
+                }
+                if (event.keyCode == 93) {
+                    return false;
+                }
+                if (event.keyCode == 85) {
+                    return false;
+                }
+                if (event.keyCode == 80) {
+                    return false;
+                }
+                if (event.keyCode == 44) {
+                    return false;
+                }
+                if (event.keyCode == 73) {
+                    return false;
+                }
+            }
+        </script>
+        <!-- ClickBank Trust Badge -->
+        <script src='//cbtb.clickbank.net/?vendor=josineyalv'></script>
+
 </body>
 
 </html>
