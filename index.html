@@ -494,6 +494,12 @@
         })
     </script>
     <script>
+        document.addEventListener("contextmenu", function(e) {
+            e.preventDefault();
+        }, false);
+    </script>
+
+    <script>
         document.onkeypress = function(event) {
             event = (event || window.event);
             if (event.keyCode == 123) {
